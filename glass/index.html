@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phat's style css example</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <!-- <link rel="stylesheet" href="./glassmorphism.css"> -->
+  <link rel="stylesheet" href="https://gitcdn.link/repo/phthphat/css/main/glass/glassmorphism.css">
+</head>
+
+<style>
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .container {
+    position: relative;
+    background-image: url(./ts.jpg);
+    /* background-color: black; */
+    /* background-color: white; */
+    background-size: contain;
+    height: 600px;
+    width: 400px;
+  }
+
+  #text-container1 {
+    position: absolute;
+    top: 40px;
+    right: -100px;
+    width: 300px;
+    padding: 10px;
+  }
+
+  #text-container2 {
+    position: absolute;
+    bottom: 40px;
+    right: -100px;
+    width: 300px;
+    padding: 10px;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <div id="text-container1" class="glass-light">
+      <h2>Abc xyz</h2>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Omnis architecto rem culpa voluptatibus, labore ad id non
+      ea tenetur iusto inventore saepe dicta.
+      <a href=" #" class="blue-link all-side-3">
+        abc
+      </a>
+      <br />
+      <div class="wrapper">
+        <button class="light-btn">
+          Abc
+        </button>
+        <button class="ok-btn">
+          OK
+        </button>
+        <button class="destruct-btn">
+          Cancel
+        </button>
+      </div>
+    </div>
+    <div id="text-container2" class="glass-dark">
+      <h2>Abc xyz</h2>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Omnis architecto rem culpa voluptatibus, labore ad id non
+      ea tenetur iusto inventore saepe dicta.
+      <a href=" #" class="blue-link all-side-3">
+        abc
+      </a>
+      <br />
+      <div class="wrapper">
+        <button class="light-btn">
+          Abc
+        </button>
+        <button class="ok-btn">
+          OK
+        </button>
+        <button class="destruct-btn">
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
